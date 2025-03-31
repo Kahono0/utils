@@ -1,4 +1,4 @@
-module github.com/kahono0/utils
+module github.com/Kahono0/utils
 
 go 1.23.4
 
