@@ -1,0 +1,14 @@
+[Unit]
+Description=My Application
+After=network.target
+
+[Service]
+ExecStart=/working/exe
+WorkingDirectory=/working/
+Restart=always
+RestartSec=5
+User=user
+EnvironmentFile=/working/.env
+
+[Install]
+WantedBy=multi-user.target
